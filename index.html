@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js with Node-RED</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="container"></div>
+  <div id="ui">
+    <label for="layerSlider">Layers: </label>
+          <button id="playButton">Animate Scene</button>
+          <input type="range" id="layerSlider" min="0" max="45" value="0">
+          <br>
+          <label for="colorSlider">Temperature: </label>
+          <input type="range" id="colorSlider" min="0" max="100" value="0">
+          <br>
+          <label for="cloudPositionSlider">Cloud Position: </label>
+          <input type="range" id="cloudPositionSlider" min="0" max="100" value="0">
+          <br>
+          <label for="tankSlider">tank: </label>
+          <input type="range" id="tankSlider" min="0" max="100" value="0">
+          
+          
+          <label for="pipeSlider">pipe: </label>
+          <input type="range" id="pipeSlider" min="0" max="100" value="0">
+          
+          <label for="motorSlider">motor: </label>
+          <input type="range" id="motorSlider" min="0" max="1" value="0">
+          
+          <label for="valveSlider">valve: </label>
+          <input type="range" id="valveSlider" min="0" max="1" value="0">
+
+          <label for="timeSlider">time: </label>
+          <input type="range" id="timeSlider" min="0" max="1" value="0">
+
+          <label for="sunSlider">sun: </label>
+          <input type="range" id="sunSlider" min="0" max="1" value="0">
+  </div>
+  <script type="module" src="/main1.js"></script>
+</body>
+</html>
